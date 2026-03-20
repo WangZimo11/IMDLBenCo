@@ -9,6 +9,7 @@ from .span.SPAN import SPAN
 from .trufor.trufor import Trufor
 from .mesorch.mesorch import Mesorch
 from .sparse_vit.sparse_vit import SparseViT, SparseViTBackbone
+from .nfa_vit.nfa_vit import NFA_ViT
 
 __all__ = [
     'IML_ViT',
@@ -22,5 +23,6 @@ __all__ = [
     "Trufor",
     'Mesorch',
     "SparseViT",
-    "SparseViTBackbone"
+    "SparseViTBackbone",
+    "NFA_ViT"
 ]
